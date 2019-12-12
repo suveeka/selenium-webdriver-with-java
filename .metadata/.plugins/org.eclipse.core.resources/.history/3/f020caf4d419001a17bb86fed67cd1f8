@@ -1,0 +1,14 @@
+package com.herokuapp.theinternet;
+
+public class PositiveTest {
+
+	
+	public void lgonTests() {
+		
+		//Create Driver
+		
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		Webdriver driver = new Webdriver();
+		
+	}
+}

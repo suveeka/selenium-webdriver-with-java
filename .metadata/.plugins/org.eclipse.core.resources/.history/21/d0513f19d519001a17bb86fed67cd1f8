@@ -1,0 +1,17 @@
+package com.herokuapp.theinternet;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PositiveTest {
+
+	
+	public void lgonTests() {
+		
+		//Create Driver
+		
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+	}
+}

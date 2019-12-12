@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-12T03:22:51Z" name="Surefire suite" finished-at="2019-12-12T03:23:30Z" duration-ms="38399">
+    <groups>
+    </groups>
+    <test started-at="2019-12-12T03:22:51Z" name="Surefire test" finished-at="2019-12-12T03:23:30Z" duration-ms="38399">
+      <class name="com.herokuapp.theinternet.PositiveTest">
+        <test-method signature="loginTests()[pri:0, instance:com.herokuapp.theinternet.PositiveTest@1189dd52]" started-at="2019-12-12T03:22:51Z" name="loginTests" finished-at="2019-12-12T03:23:30Z" duration-ms="38335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
