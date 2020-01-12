@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeTestsSuite" verbose="1">
+
+	<test name="NegativeUsernameTests">
+	<parameter name = "username" value = "something"/>
+	<parameter name = "password" value = "SuperSecretPassword!"/>
+	<parameter name = "expectedmessage" value = "Your username is invalid!"/>
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests">
+				<methods>
+					<include name="incorrectUserNameTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativePasswordTests">
+	<parameter name = "username" value = "tomsmith"/>
+	<parameter name = "password" value = "SuperSecretPassword"/>
+	<parameter name = "expectedmessage" value = "Your password is invalid!"/>
+	<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests">
+				<methods>
+					<include name="incorrectPasswordTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<!-- With method name to be run <test name="NegativeTests"> <classes> <class 
+		name="com.herokuapp.theinternet.NegativeTests"> <methods> <include name="incorrectPasswordTest" 
+		/> </methods> </class> </classes> </test> -->
+
+
+	<!-- with a GROUP <test name="NegativeTests"> <groups> <run> <include name 
+		= "smokeTest" /> </run> </groups> </test> -->
+</suite>

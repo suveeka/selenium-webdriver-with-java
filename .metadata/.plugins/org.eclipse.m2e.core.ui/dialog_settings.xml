@@ -6,10 +6,12 @@
 			<item value="com.theinternet.herokuapp"/>
 		</list>
 		<list key="name">
+			<item value="first-selenium-project"/>
 			<item value="First-selenium-project"/>
 			<item value="Selenium First"/>
 		</list>
 		<list key="artifactId">
+			<item value="first-selenium"/>
 			<item value="First-selenium"/>
 			<item value="selenium-first"/>
 		</list>

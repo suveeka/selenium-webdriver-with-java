@@ -27,10 +27,9 @@ public class PositiveTest {
 		String url = "https://the-internet.herokuapp.com/login";
 		driver.get(url);
 		
-		System.out.println("Page is opened");
+		System.out.println("Page is opened to check positive test");
 		
-		
-		
+			
 		//enter username
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");
@@ -57,6 +56,7 @@ public class PositiveTest {
 		
 		//successful login message
 		WebElement successmessage = driver.findElement(By.cssSelector("#flash"));
+		System.out.println("Display message is this - "+successmessage);
 		
 		//close browser
 		driver.quit();
